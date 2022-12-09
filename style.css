@@ -1,0 +1,48 @@
+*{
+    margin:0 auto;
+    padding:0;
+    background: lightgray;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+}
+
+.container{
+    width:500px;
+    height:400px;
+    left:50%;
+    top:50%;
+    
+}
+ul{
+    
+    display:flex;
+    text-align: center;
+    list-style-type: none;
+    
+}   
+
+#section{
+    height:360px;
+    width:500px;
+    background: pink;
+    size:15px;
+    
+}
+.tab {
+    width:125px;
+    height:40px;
+    background-color: gray;
+    cursor: pointer;
+    border:0;
+    border-right:2px solid black;
+    border:visible;
+    
+  }
+
+.active, .btn:hover {
+    background-color: pink;
+    color: black;
+    border:hidden;
+    
+  }
